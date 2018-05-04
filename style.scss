@@ -1,0 +1,149 @@
+$dark-purple: #2E112D;
+$magenta: #540032;
+$dark-red: #820333;
+$light-red: #C9283E;
+$orange: #F0433A;
+
+body {
+  margin: 0;
+  background-color: #222;
+  font-family: verdana;
+}
+
+.top {
+  background: rgb(46, 17, 45);
+  background: linear-gradient(90deg, rgba(46, 17, 45, 1) 0%, rgba(130, 3, 51, 1) 60%, rgba(240, 67, 58, 1) 100%);
+  border-bottom: 3px solid #ffffff26;
+}
+
+.logo {
+  padding: 20px 20px;
+}
+
+h1 {
+  margin: 0px;
+  color: #ddd;
+}
+
+h5 {
+  color: #ddd;
+}
+
+.container {
+  max-width: 940px;
+  margin: auto;
+}
+
+.copy {
+  padding: 20px;
+  border-bottom: 1px solid #555;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+}
+
+.radio {
+  color: #ddd;
+  font-size: .9rem;
+  margin-bottom: 20px;
+
+  label {
+    margin-right: 8px;
+  }
+
+}
+
+.flex-box {
+  display: flex;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+
+  .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px solid #ffffff26;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 5px;
+  }
+
+  .one {
+    background-color: $dark-purple;
+  }
+
+  .two {
+    background-color: $magenta;
+  }
+
+  .three {
+    background-color: $dark-red;
+  }
+
+  .four {
+    background-color: $light-red;
+  }
+
+  .five {
+    background-color: $orange;
+  }
+
+}
+
+input[type=radio]:checked + label {
+  color: $orange;
+}
+
+/* Flex Direction */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* Justify-Content */
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}

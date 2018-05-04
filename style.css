@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: #222;
+  font-family: verdana;
+}
+
+.top {
+  background: #2e112d;
+  background: linear-gradient(90deg, #2e112d 0%, #820333 60%, #f0433a 100%);
+  border-bottom: 3px solid #ffffff26;
+}
+
+.logo {
+  padding: 20px 20px;
+}
+
+h1 {
+  margin: 0px;
+  color: #ddd;
+}
+
+h5 {
+  color: #ddd;
+}
+
+.container {
+  max-width: 940px;
+  margin: auto;
+}
+
+.copy {
+  padding: 20px;
+  border-bottom: 1px solid #555;
+}
+.copy:last-child {
+  border-bottom: none;
+}
+
+.radio {
+  color: #ddd;
+  font-size: .9rem;
+  margin-bottom: 20px;
+}
+.radio label {
+  margin-right: 8px;
+}
+
+.flex-box {
+  display: flex;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.flex-box .box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 3px solid #ffffff26;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 5px;
+}
+.flex-box .one {
+  background-color: #2E112D;
+}
+.flex-box .two {
+  background-color: #540032;
+}
+.flex-box .three {
+  background-color: #820333;
+}
+.flex-box .four {
+  background-color: #C9283E;
+}
+.flex-box .five {
+  background-color: #F0433A;
+}
+
+input[type=radio]:checked + label {
+  color: #F0433A;
+}
+
+/* Flex Direction */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* Justify-Content */
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Align Items */
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
