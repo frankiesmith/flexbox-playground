@@ -14,9 +14,14 @@ body {
   padding: 20px 20px;
 }
 
+.logo a {
+  text-decoration:none;
+}
+
 h1 {
   margin: 0px;
   color: #ddd;
+  text-decoration:none;
 }
 
 h5 {
