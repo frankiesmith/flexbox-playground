@@ -48,6 +48,7 @@ h5 {
 .flex-box {
   min-height:300px;
   display: flex;
+  align-items:flex-start;
   border: 1px solid #555;
   border-radius: 10px;
   padding: 20px;
