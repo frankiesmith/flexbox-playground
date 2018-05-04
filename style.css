@@ -46,6 +46,7 @@ h5 {
 }
 
 .flex-box {
+  min-height:300px;
   display: flex;
   border: 1px solid #555;
   border-radius: 10px;
@@ -53,8 +54,8 @@ h5 {
   margin-bottom: 40px;
 }
 .flex-box .box {
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
   border-radius: 10px;
   border: 3px solid #ffffff26;
   text-align: center;
@@ -85,75 +86,75 @@ input[type=radio]:checked + label {
 }
 
 /* Flex Direction */
-.row {
+.fd-row {
   display: flex;
   flex-direction: row;
 }
 
-.row-reverse {
+.fd-row-reverse {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.column {
+.fd-column {
   display: flex;
   flex-direction: column;
 }
 
-.column-reverse {
+.fd-column-reverse {
   display: flex;
   flex-direction: column-reverse;
 }
 
 /* Justify-Content */
-.flex-start {
+.jc-flex-start {
   display: flex;
   justify-content: flex-start;
 }
 
-.flex-end {
+.jc-flex-end {
   display: flex;
   justify-content: flex-end;
 }
 
-.space-between {
+.jc-space-between {
   display: flex;
   justify-content: space-between;
 }
 
-.center {
+.jc-center {
   display: flex;
   justify-content: center;
 }
 
-.space-around {
+.jc-space-around {
   display: flex;
   justify-content: space-around;
 }
 
 /* Align Items */
-.flex-start {
+.ai-flex-start {
   display: flex;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.flex-end {
+.ai-flex-end {
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-.space-between {
+.ai-center {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
-.center {
+.ai-baseline {
   display: flex;
-  justify-content: center;
+  align-items: baseline;
 }
 
-.space-around {
+.ai-stretch {
   display: flex;
-  justify-content: space-around;
+  align-items: stretch;
 }
 

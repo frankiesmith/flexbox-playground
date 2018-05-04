@@ -1,38 +1,58 @@
 /* Flex Direction */
-$('.row-radio').click(function(){
-  $('.flex-box').removeClass('row-reverse column column-reverse').addClass('row');
+$('.f-d-row-radio').click(function(){
+  $('.flex-box').removeClass('fd-row-reverse fd-column fd-column-reverse').addClass('fd-row');
 });
 
-$('.row-reverse-radio').click(function(){
-  $('.flex-box').removeClass('row column column-reverse').addClass('row-reverse');
+$('.f-d-row-reverse-radio').click(function(){
+  $('.flex-box').removeClass('fd-row fd-column fd-column-reverse').addClass('fd-row-reverse');
 });
 
-$('.column-radio').click(function(){
-  $('.flex-box').removeClass('row row-reverse column column-reverse').addClass('column');
+$('.f-d-column-radio').click(function(){
+  $('.flex-box').removeClass('fd-row fd-row-reverse fd-column fd-column-reverse').addClass('fd-column');
 });
 
-$('.column-reverse-radio').click(function(){
-  $('.flex-box').removeClass('row row-reverse column').addClass('column-reverse');
+$('.f-d-column-reverse-radio').click(function(){
+  $('.flex-box').removeClass('fd-row fd-row-reverse fd-column').addClass('fd-column-reverse');
 });
 
 /* Justify Content */
-$('.flex-start-radio').click(function(){
-  $('.flex-box').removeClass('flex-end space-between center space-around').addClass('flex-start');
+$('.j-c-flex-start-radio').click(function(){
+  $('.flex-box').removeClass('jc-flex-end jc-space-between jc-center jc-space-around').addClass('jc-flex-start');
 });
 
-$('.flex-end-radio').click(function(){
-  $('.flex-box').removeClass('flex-start space-between center space-around').addClass('flex-end');
+$('.j-c-flex-end-radio').click(function(){
+  $('.flex-box').removeClass('jc-flex-start jc-space-between jc-center jc-space-around').addClass('jc-flex-end');
 });
 
-$('.space-between-radio').click(function(){
-  $('.flex-box').removeClass('flex-start flex-end center space-around').addClass('space-between');
+$('.j-c-space-between-radio').click(function(){
+  $('.flex-box').removeClass('jc-flex-start jc-flex-end jc-center jc-space-around').addClass('jc-space-between');
 });
 
-$('.center-radio').click(function(){
-  $('.flex-box').removeClass('flex-start flex-end space-between space-around').addClass('center');
+$('.j-c-center-radio').click(function(){
+  $('.flex-box').removeClass('jc-flex-start jc-flex-end jc-space-between jc-space-around').addClass('jc-center');
 });
 
+$('.j-c-space-around-radio').click(function(){
+  $('.flex-box').removeClass('jc-flex-start jc-flex-end jc-space-between jc-center').addClass('jc-space-around');
+});
 
-$('.space-around-radio').click(function(){
-  $('.flex-box').removeClass('flex-start flex-end space-between center').addClass('space-around');
+/* Align Items */
+$('.ai-flex-start-radio').click(function(){
+  $('.flex-box').removeClass('ai-flex-end ai-center ai-baseline ai-stretch').addClass('ai-flex-start');
+});
+
+$('.ai-flex-end-radio').click(function(){
+  $('.flex-box').removeClass('ai-flex-start ai-center ai-baseline ai-stretch').addClass('ai-flex-end');
+});
+
+$('.ai-center-radio').click(function(){
+  $('.flex-box').removeClass('ai-flex-start ai-flex-end ai-baseline ai-stretch').addClass('ai-center');
+});
+
+$('.ai-baseline-radio').click(function(){
+  $('.flex-box').removeClass('ai-flex-start ai-flex-end ai-center ai-stretch').addClass('ai-baseline');
+});
+
+$('.ai-stretch-radio').click(function(){
+  $('.flex-box').removeClass('ai-flex-start ai-flex-end ai-center ai-baseline').addClass('ai-stretch');
 });
