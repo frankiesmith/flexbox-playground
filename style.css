@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-color: #222;
+  background:url("./images/argyle_@2X.png");
+  background-repeat:repeat;
   font-family: verdana;
 }
 
