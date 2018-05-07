@@ -31,6 +31,7 @@ h5 {
 .container {
   max-width: 940px;
   margin: auto;
+  padding:0 20px;
 }
 
 .copy {
